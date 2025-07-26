@@ -13,7 +13,8 @@ public class Happy_Number {
 		Scanner s=new Scanner(System.in);
 		System.out.println("enter the num:");
 		int n=s.nextInt();
-		int b=sum;
+		
+		
 		
 		
 			
@@ -21,4 +22,3 @@ public class Happy_Number {
 		}
 	}
 
-}
