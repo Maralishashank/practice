@@ -3,8 +3,7 @@ class Dog{
 	private String name;
 	private String breed;
 	Dog(){
-		name="chimtu bhai";
-		breed="Golden retriver";
+		
 	}
 	public String getName() {
 		return name;
@@ -25,6 +24,8 @@ class Dog{
 public class Dog_breed {
 	public static void main(String[] args) {
 		Dog d=new Dog();
+		d.setName("chimtu");
+		d.setBreed("golden retriver");
 		d.bark();
 	}
 }
