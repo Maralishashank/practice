@@ -1,9 +1,6 @@
 package Encapsulation;
 class Bulb{
 	private boolean isOn;
-	Bulb(){
-		
-	}
 	public void turnOn() {
 		isOn=true;
 	}
