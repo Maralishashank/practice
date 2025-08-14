@@ -13,7 +13,8 @@ public class Hyderbad_metro {
 		    System.out.println("enter a password:");
 		    password=s.next();
 		    System.out.println("registration completed you can login now");
-		    while(true) {
+		    boolean r=true;
+		    while(r) {
 		    System.out.println("enter the login details");
 		    System.out.print("enter user name: ");
 		    name=s.next();
@@ -115,7 +116,6 @@ public class Hyderbad_metro {
 			    		}
 			    		while(c=='y');	
 			    		break;
-			    		
 			    	case 3:
 			    		System.out.println("current balance:"+balance);
 			    		System.out.println("total number of tickets booked:"+count);
@@ -130,15 +130,15 @@ public class Hyderbad_metro {
 			    		System.out.println("logged out successfully");
 			    		break;
 			           }
-
-                    if (a == 5) break;
-                }
-                
-            } else 
-                System.out.println("Invalid username or password.");
-        }
-        
+			    	if(a==5)break;
+                }  	
+		    } 
+		    else 
+                System.out.println("Invalid username or password.");      
+		    }
+		s.close();
     }
+	
 public int booking(int source,int dest,int dis,int fare,int balance) {
 	dis=dest-source;
 	if(dis==1) 

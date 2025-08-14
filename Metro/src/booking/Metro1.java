@@ -12,7 +12,8 @@ public class Metro1 {
 		    System.out.println("enter a password:");
 		    password=s.next();
 		    System.out.println("registration completed you can login now");
-		    while(true) {
+		    boolean r=true;
+		    while(r) {
 		    System.out.println("enter the login details");
 		    System.out.print("enter user name: ");
 		    name=s.next();
@@ -200,8 +201,7 @@ public class Metro1 {
 		    }
 			else
 				System.out.println("enter valid password or password");
-		    s.close();
+		    }
+		    s.close(); 
 		}
-		    }    
-		    
-		}
+}
