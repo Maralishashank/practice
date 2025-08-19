@@ -28,7 +28,8 @@ public class Hyderbad_metro {
 			    	System.out.println("      2.Book tickets");
 			    	System.out.print("3.view balance");
 			    	System.out.println("             4.view last ticket details");
-			    	System.out.println("5.logout");
+			    	System.out.print("5.logout");
+			    	System.out.println("                   6.exit");
 			    	System.out.print("enter a choice:");
 			    	a=s.nextInt();
 			    	switch(a) {
@@ -129,6 +130,11 @@ public class Hyderbad_metro {
 			    	case 5:
 			    		System.out.println("logged out successfully");
 			    		break;
+			    	case 6:
+			    		System.out.println("logged out and exited the page");
+			    		return;
+			    	default:
+			    		System.out.println("enter a valid choice");
 			           }
 			    	if(a==5)break;
                 }  	

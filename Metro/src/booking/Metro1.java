@@ -28,6 +28,7 @@ public class Metro1 {
 			    	System.out.println("3.view balance");
 			    	System.out.println("4.view last ticket details");
 			    	System.out.println("5.logout");
+			    	System.out.println("6.exit");
 			    	System.out.println("enter a choice:");
 			    	a=s.nextInt();
 			    	switch(a) {
@@ -195,6 +196,8 @@ public class Metro1 {
 			    	case 5:
 			    		System.out.println("logged out successfully");
 			    		break;
+			    	case 6:
+			    		System.out.println("exited the page");
 			    }
 			    	if(a==5)break;
 			   }
